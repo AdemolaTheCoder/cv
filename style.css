@@ -1,0 +1,322 @@
+body {
+    padding: 2em 1.5em;
+    background-image: url(../CV/Screenshot\ 2021-04-17\ 003445.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 150vh;
+    border: 1px solid black;
+}
+
+h2 {
+    text-align: center;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+#summary {
+    width: 135px;
+    color: #5c5c94;
+    border-bottom: 2px solid #5c5c94;
+}
+
+div.profile-summary {
+    margin-top: -1.3em;
+    border-top: 1px solid black;
+}
+
+#core-skills {
+    width: 90px;
+    color: #5c5c94;
+    border-bottom: 2px solid #5c5c94;
+}
+
+div.core-skills {
+    margin: -1.3em .1em 0 0;
+    display: flex;
+    border-top: 2px solid #5c5c94;
+}
+
+div.core-skills1 ul li {
+    margin-top: -1em;
+    padding-bottom: 1em;
+    margin-left: -1em;
+}
+
+div.core-skills2 ul li {
+    margin-top: -1em;
+    margin-left: -1em;
+    padding-bottom: 1em;
+}
+
+div.core-skills3 ul li {
+    margin-top: -1em;
+    padding-bottom: 1.25em;
+}
+
+#skills {
+    width: 195px;
+    color: #5c5c94;
+    border-bottom: 2px solid #5c5c94;
+    margin-top: -2.4em;
+}
+
+div.competencies {
+    border-top: 2px solid #5c5c94;
+    margin-top: -1.3em;
+}
+
+div.competencies ul li {
+    margin-top: -1em;
+    margin-left: -1.4em;
+    padding-bottom: 1em;
+}
+
+#work {
+    width: 135px;
+    color: #5c5c94;
+    border-bottom: 2px solid #5c5c94;
+    margin-top: -1.5em;
+
+}
+
+div.work-josien {
+    border-top: 1px solid black;
+    margin-top: -1.25em;
+}
+
+div.work-josien ul li {
+    margin-top: -1em;
+    margin-left: -1.4em;
+    padding-bottom: 1em;
+}
+
+#jo1, #jo2, #jo3 {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0 3em 0 1em;
+    margin-top: .3em;
+}
+
+#jo1 {
+    color: #5c5c94;
+    font-weight: bold;
+    padding-left: .2em;
+    padding-right: .5em;
+    border-right: 2px solid black;
+}
+
+#jo2 {
+    padding-left: 1em;
+    padding-right: 8em;
+    border-right: 2px solid black;
+}
+
+#jo3 {
+    border: none;
+    margin-left: -1em;
+}
+
+div.work-kessavier {
+    border-top: 2px solid #5c5c94;
+    margin-top: -.8em;
+}
+
+div.work-kessavier ul li {
+    margin-top: -1em;
+    margin-left: -1.4em;
+    padding-bottom: 1em;
+}
+
+#ke1, #ke2, #ke3 {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0 3em 0 1em;
+    margin-top: .3em;
+}
+
+#ke1 {
+    color: #5c5c94;
+    font-weight: bold;
+    padding-left: .2em;
+    padding-right: .5em;
+    border-right: 2px solid black;
+}
+
+#ke2 {
+    padding-left: .1em;
+    padding-right: 6em;
+    border-right: 2px solid black;
+}
+
+#ke3 {
+    border: none;
+    margin-left: -1em;
+}
+
+div.work-illuminus {
+    border-top: 2px solid #5c5c94;
+    margin-top: -.9em;
+}
+
+div.work-illuminus ul li {
+    margin-top: -1em;
+    margin-left: -1.4em;
+    padding-bottom: 1em;
+}
+
+#il1, #il2, #il3 {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0 3em 0 2em;
+    margin-top: .3em;
+}
+
+#il1 {
+    color: #5c5c94;
+    font-weight: bold;
+    padding-left: .2em;
+    padding-right: .5em;
+    border-right: 2px solid black;
+}
+
+#il2 {
+    padding-left: .1em;
+    padding-right: 11em;
+    border-right: 2px solid black;
+}
+
+#il3 {
+    border: none;
+    margin-left: -2em;
+}
+
+div.work-wuraola {
+    border-top: 2px solid #5c5c94;
+    margin-top: -.9em;
+}
+
+div.work-wuraola ul li {
+    margin-left: -1.4em;
+    margin-top: -.7em;
+    padding-bottom: .8em;
+}
+
+#wu1, #wu2, #wu3 {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0 3em 0 2em;
+    margin-top: .3em;
+}
+
+#wu1 {
+    color: #5c5c94;
+    font-weight: bold;
+    padding-left: .2em;
+    padding-right: .5em;
+    border-right: 2px solid black;
+}
+
+#wu2 {
+    font-weight: bold;
+    padding-left: .1em;
+    padding-right: 11em;
+    border-right: 2px solid black;
+}
+
+#wu3 {
+    font-weight: bold;
+    border: none;
+    margin-left: -2em;
+}
+
+#volunteer {
+    width: 132px;
+    font-weight: bold;
+    color: #5c5c94;
+    border-bottom: 2px solid #5c5c94;
+    margin-top: -.8em;
+
+}
+
+div.volunteer-work {
+    border-top: 1px solid black;
+    margin-top: -1.3em;
+}
+
+div.volunteer-work ul li {
+    margin-top: -.8em;
+    margin-left: -1.4em;
+    padding-bottom: 1.4em;
+}
+
+#education {
+    width: 82px;
+    color: #5c5c94;
+    border-bottom: 2px solid #5c5c94;
+
+}
+
+div.education {
+    border-top: 1px solid black;
+    margin-top: -1.3em;
+}
+
+div.education ul li {
+    margin-top: -.8em;
+    margin-left: -1.4em;
+    padding-bottom: 1.4em;
+}
+
+@media screen and (max-width: 300px) {
+    body {
+        border: none;
+        width: 80%;
+    }
+
+    #summary {
+        width: 118px ;
+
+    }
+
+    #core-skills {
+        width: 80px;
+
+    }
+
+    #skills {
+        width: 170px;
+
+    }
+
+    #work {
+        width: 115px;
+
+    }
+
+    #jo2 {
+        padding-right: 3em;
+    }
+
+    #ke2 {
+        padding-right: .5em;
+    }
+
+    #ke3 {
+        margin-left: -1em;
+        font-size: 15px;
+    }
+
+    #il2 {
+        padding-right: 5em;
+    }
+
+    #wu2 {
+        padding-right: 5em;
+    }
+  }
